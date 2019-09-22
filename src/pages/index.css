@@ -1,5 +1,6 @@
 .logo-band {
   background-color: #135074;
+  margin-top: 10vh;
 }
 
 .logo-band img {
@@ -18,6 +19,7 @@
 .sponsor-band {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   margin: 20px auto 0 auto;
@@ -26,6 +28,8 @@
 
 .sponsor-band img {
   margin: 10px;
+  max-width: 50%;
+  flex: 1 1 50%;
 }
 
 .info-band {

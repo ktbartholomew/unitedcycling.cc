@@ -15,8 +15,8 @@ const IndexPage = () => (
       <img alt="United Logo" src={UnitedLogo} />
     </div>
     <div className="sponsor-band">
-      <img alt="Trek logo" src={TrekLogo} style={{ width: "200px" }} />
-      <img alt="Hyperthreads logo" src={HTLogo} style={{ width: "200px" }} />
+      <img alt="Trek logo" src={TrekLogo} />
+      <img alt="Hyperthreads logo" src={HTLogo} />
     </div>
     <div className="info-band">
       <span>Find us on:</span>
