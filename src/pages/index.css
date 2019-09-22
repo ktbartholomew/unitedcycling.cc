@@ -1,0 +1,42 @@
+.logo-band {
+  background-color: #135074;
+}
+
+.logo-band img {
+  display: block;
+  margin: 0 auto;
+  width: 480px;
+  max-width: 90%;
+}
+
+@media (min-width: 1000px) {
+  .logo-band {
+    margin-top: 25vh;
+  }
+}
+
+.sponsor-band {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto 0 auto;
+  max-width: 480px;
+}
+
+.sponsor-band img {
+  margin: 10px;
+}
+
+.info-band {
+  max-width: 480px;
+  margin: 20px auto 0 auto;
+  padding: 10px;
+  text-align: center;
+}
+
+.info-band a {
+  display: inline-block;
+  margin: 0 0 0 1em;
+  text-decoration: underline;
+}
